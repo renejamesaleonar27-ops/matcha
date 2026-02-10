@@ -11,7 +11,14 @@ nav{
 .searchbar{
     height: 60px;
     width: 100%;
-    background-color: brown;
+    display: grid;
+    place-content: center;
+}
+.searchbar input{
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 7px;
 }
 .left{
     height: 780px;
@@ -54,4 +61,5 @@ nav{
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
