@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 nav{
-    height: 80px;
+    height: 120px;
     width: 100%;
-    background-color: red;
+    
 }
 .searchbar{
     height: 60px;
@@ -26,3 +26,32 @@ nav{
 .main{
     display: flex;
 }
+
+
+nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 35px;
+    gap: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo p{
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.links{
+    display: flex;
+    gap: 200px;
+}
+.links a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
