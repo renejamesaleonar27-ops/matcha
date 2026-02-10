@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: red;
+}
+.searchbar{
+    height: 60px;
+    width: 100%;
+    background-color: brown;
+}
+.left{
+    height: 780px;
+    width: 60%;
+    background-color: green;
+}
+.right{
+    height: 780px;
+    width: 40%;
+    background-color: rgb(181, 41, 209);
+}
+.main{
+    display: flex;
+}
